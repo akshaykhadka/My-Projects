@@ -16,4 +16,4 @@ Again the player has to choose a number between 0 - 5.
 This goes on until the player is out. 
 After that, computer plays the game and the player has to choose the number which the computer may pick from 0 - 5. 
 Once the computer is out, scorecards are compared and the one with higher score wins the game.
-
+Enjoy Playing !!
