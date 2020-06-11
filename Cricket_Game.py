@@ -160,6 +160,7 @@ while True:
             else:
                 computer_number = zero_adjuster(computer_number, user_input)
                 computer_score += computer_number
+                print("Computer's number: {}".format(computer_number))
                 print("computer's score -> {}".format(computer_score))
                 print(" ")
 
