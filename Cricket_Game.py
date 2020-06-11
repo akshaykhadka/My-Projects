@@ -15,8 +15,12 @@ def toss_coin():
             return True
         else:
             return False
-
-    if coin.lower() == 'o':
+    elif coin.lower() == 'o':
+        if random_sum % 2 == 0:
+            return False
+        else:
+            return True
+    else:
         if random_sum % 2 == 0:
             return False
         else:
