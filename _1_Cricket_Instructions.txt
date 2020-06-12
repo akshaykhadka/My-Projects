@@ -1,0 +1,19 @@
+                      Cricket !!
+
+Cricket game designed in Python language.
+
+This game is played between the player and the computer. 
+First, there is Toss in which it is decided whether the player will play first or the computer.
+
+How to play ...
+
+Suppose the player wins the toss and gets to play first. 
+The player has to choose a number between 0 - 5. 
+The computer at the same time will pick a number randomly between 0 - 5. 
+If the computer guesses the same number as chosen by the player, then the player is out. 
+Otherwise the number chosen gets added to it's score. 
+Again the player has to choose a number between 0 - 5. 
+This goes on until the player is out. 
+After that, computer plays the game and the player has to choose the number which the computer may pick from 0 - 5. 
+Once the computer is out, scorecards are compared and the one with higher score wins the game.
+Enjoy Playing !!

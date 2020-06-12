@@ -1,0 +1,60 @@
+Welcome to the Black_Jack Game !!
+
+Instructions...
+
+How to Play ?
+
+1. There are a total of 52 cards making a full deck.
+
+2. Each, the player and the dealer (the computer) are dealt two cards initially.
+
+3. One of the dealer cards is kept hidden while all the other cards are shown.
+   Eg. Dealer's Hand:
+                    < card hidden >
+                     Ten of Hearts
+       Player's Hand:
+                    Four of Spades
+                    Queen of Diamonds
+
+4. The Player gets the first chance to hit (i.e choose a card from the deck) or to
+   stand (i.e giving chance to the dealer).
+
+5. If the Player hits, then the total value of the Player's Hand is calculated.
+
+6. If the Player's Hand value exceeds 21 then the Player gets Bust and the Dealer 
+   automatically wins the game. Else, the Player is given one more chance either to
+   hit or stand.
+   Eg. Player's Hand:
+                    Queen of Hearts # value is 10
+                    King of Spades  # value is 10
+                    Two of Diamonds # value is 2
+                    
+                    Total Value = 22
+                    Player Busts ! Dealer Wins !
+
+7. Also, the value of 'Ace' of any suits is taken as 11. In case, the Player's Hand 
+   (or the Dealer's Hand) exceeds 21 and an 'Ace' is present in the Hand, then the 
+   value of 'Ace' gets automatically adjusted to 1. 
+   Eg. Player's Hand:
+                    Jack of Clubs     # value is 10
+                    Seven of Diamonds # value is 7
+                    Ace of Clubs      # value is 11
+              
+                    Total value = 28
+      Therefore, to save the Player from getting Bust, the value of the 'Ace' will
+      get adjusted to 1.
+                    Jack of Clubs     # value is 10
+                    Seven of Diamonds # value is 7
+                    Ace of Clubs      # value is 1
+
+                    Total Value = 18
+
+8. Once the Player chooses to stand, it's Dealer's chance to hit until it's Hand value is
+   equal to or greater than 17. If the value exceeds 21, the Dealer gets Bust and the 
+   Player wins.
+
+9. Else, at last, all the cards are revealed and the value of both the 'Hands' are compared and the one with the greater 
+   value wins the game.
+
+*** Enjoy Playing !! ********************************************************************
+   
