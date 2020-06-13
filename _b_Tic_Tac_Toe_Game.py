@@ -23,7 +23,6 @@ def display_board(board):
     print("     |     |     ")
 
 def win_combinations(board, player):
-    global game_on
 
     if ((board[3] == player.mark and board[2] == player.mark and board[1] == player.mark) or
         (board[4] == player.mark and board[5] == player.mark and board[6] == player.mark) or
